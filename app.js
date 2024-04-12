@@ -21,7 +21,7 @@ app.use(
   cors({
     credentials: true,
     origin:
-      process.env.FRONTEND_URL || "https://taupe-sprinkles-030f6c.netlify.app",
+      "https://taupe-sprinkles-030f6c.netlify.app" /*process.env.FRONTEND_URL */,
   })
 );
 
